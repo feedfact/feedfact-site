@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infos on FeedFact.org</title>
+    <link>http://feedfact.org/info/index.xml</link>
+    <description>Recent content in Infos on FeedFact.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 29 Jan 2017 17:53:45 -0800</lastBuildDate>
+    <atom:link href="http://feedfact.org/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>what&#39;s this all about</title>
+      <link>http://feedfact.org/info/whats-this-all-about/</link>
+      <pubDate>Sun, 29 Jan 2017 17:53:45 -0800</pubDate>
+      
+      <guid>http://feedfact.org/info/whats-this-all-about/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve tried to make tag lines for this project.  You know those one-liners that simplify topics of great complexity into something that can be used as a replacement for the idea.  I could use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;Transforming clickbait to journalism&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;Journalism for the people not for publishers&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;It&#39;s time to take out trash&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I&amp;rsquo;m not concerned about nailing the perfect one-liner to understand the project.  What I am concerned about is nailing the problem and how this solution could be used for it.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-problem&#34;&gt;The Problem&lt;/h1&gt;
+
+&lt;p&gt;Everyone has their own lines they draw in the sand.  And when that line is crossed they take action.  Everyone has different thresholds for what it takes for their lines to be crossed.  People who tend to talk in binaries, i.e. &amp;ldquo;You&amp;rsquo;re with us or against us&amp;rdquo;, &amp;ldquo;Conservative or Liberal&amp;rdquo;, &amp;ldquo;Black or White&amp;rdquo;&amp;hellip;; These people tend to have very low thresholds, and have a very simple delineation between when action should be taken or not.&lt;/p&gt;
+
+&lt;p&gt;The trouble is if you are a person that has grown up appreciating nuance, can respect other view points, make attempts to walk in other peoples shoes and get fulfillment out of it; Then you probably have a line that is harder to cross.  Why? because you are comfortable being wrong. It&amp;rsquo;s actually a strength.  You have learned that the rightness and wrongness is rarely a binary, but more of a scale that can only be understood well after the time of the event.&lt;/p&gt;
+
+&lt;p&gt;Ok, so what? Well here is where it gets worse.  The political lines that are being crossed that normally would motivate people to action are getting muddled by publishers.  Each publisher has one motivation.  Generate money.  They may say they have an obligation to an ideal of the truth, but the only way they can stay relevant is by having great one-liners.  Catchy, brilliant one-liners that shock, or make you laugh.  If they have done that well, then you go read it, and the publisher can sell more ads.  What becomes alarming is that they fuel the fire of people that tend to be more binary and the rest is left sifting through garbage. And now as each publisher needs to compete with each other, the one-liners are getting more and more polarizing. Making the lines of the binaries crossed no matter what side you are on.  And the publishers are getting better at it.&lt;/p&gt;
+
+&lt;p&gt;What is left over is a wasteland of journalism that anyone can say &amp;ldquo;Oh I don&amp;rsquo;t believe it&amp;rdquo; even if the article actually has some fact behind it.  The funnier part is that both sides agree on this issue and conveniently are using it only when it disagrees with their opinion.  So when a line is crossed from one side, the other will complain, &amp;ldquo;Oh they were fed false information.&amp;rdquo;  Rather than having the important discussion of answering, &amp;ldquo;What is the reason for those people disagreeing with me?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;The best value of journalism comes when it can actually &lt;strong&gt;change&lt;/strong&gt; your mind. But that can&amp;rsquo;t happen when it&amp;rsquo;s mainly focused on polarizing people.&lt;/p&gt;
+
+&lt;h1 id=&#34;solution-well-a-potential-one&#34;&gt;Solution (well, a potential one&amp;hellip;)&lt;/h1&gt;
+
+&lt;p&gt;Ok its not all doom and gloom. I think there is some value in looking through the polarized content to get a pulse on a situation, and then filter through the facts to get a sense of what is going on.  It&amp;rsquo;s not impossible to get the details out of the news coverage (yet).  There are attempts at trying to solve the problem but the wrong people are trying to solve it.&lt;/p&gt;
+
+&lt;p&gt;The solution can&amp;rsquo;t come from publishers because they have an inherit bias.  The basis of any solution needs to emphasize one important thing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot;Trust&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is why it needs to come from people like you and I.  Not Artificial Intelligence. Not Facebook. Not A Government Agency.  Not a company with unkown board members.  It needs to come from us.  The people who are comfortable with nuance.&lt;/p&gt;
+
+&lt;p&gt;So my way of helping is getting the right news junkies together.  Whose motivation is closer to understanding an issue, rather than being a spokesperson for a political side.  These people I will give access to an API where they can rate articles and everyone in the world can consume those ratings right in any news feed they wish (and yes even in your Facebook news).  This is not a scheme to make anyone rich.  I am not going to resell this data to anyone. I am not going to publish any individuals viewpoint.  The point is that if an article is credible, it will be clear as day that it is.  And anyone will be able to apply any filters on content in your feed. If you want to just look at trash, you can do that.  If you want to only look at articles that have been reviewed by this team you can do that too.&lt;/p&gt;
+
+&lt;p&gt;The goal here is to deter the polarization of the media, by giving anyone access to credible assessments to articles right in the places they see them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

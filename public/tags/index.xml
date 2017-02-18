@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FeedFact.org</title>
+    <link>http://feedfact.org/tags/index.xml</link>
+    <description>Recent content on FeedFact.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="http://feedfact.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>little tweaks to ui and ux</title>
+      <link>http://feedfact.org/post/little-tweaks-to-ui-and-ux/</link>
+      <pubDate>Mon, 06 Feb 2017 23:24:05 -0800</pubDate>
+      
+      <guid>http://feedfact.org/post/little-tweaks-to-ui-and-ux/</guid>
+      <description>&lt;p&gt;There were a couple things i didn&amp;rsquo;t like that i wanted to fix&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix getting passed waiting for mouseover.  Ideally I would like the graph to show when you scroll&lt;/li&gt;
+&lt;li&gt;Make it look a little better&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first one took a little bit, but i found a nice shortcut.  The text of the link matches the &amp;ldquo;title&amp;rdquo; of the article. Well, that is mostly true, Aparantly there are a bunch of articles that put a &amp;ldquo; | Author&amp;rdquo; at the end, or a &amp;ldquo; | publisher&amp;rdquo; at the end of their title in the Article.  But if that was the case then how did facebook actually get the real title? I bet they weren&amp;rsquo;t custom splitting on the &amp;ldquo;|&amp;rdquo;.  Then i found some extra meta tags that mostly worked as well. This required me switching the API to use a string for the Title, which also couldn&amp;rsquo;t even have the &amp;ldquo;|&amp;rdquo; otherwise that would break my API call for some reason. But in the end it now works pretty well.  Now, the overlay in the feed will be there as you scroll to it. which is nice.&lt;/p&gt;
+
+&lt;p&gt;But how does it look? well i decided to keep the same style as this site.  Pink on Black with white font.  Here is an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://feedfact.org/images/overlay3.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is still lots to do, like&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;updating the style of the Ranker&lt;/li&gt;
+&lt;li&gt;ranking within the feed, for things like videos&lt;/li&gt;
+&lt;li&gt;filters for your feed based on preferences in the chrome extensions&lt;/li&gt;
+&lt;li&gt;oh and doing stuff to get people to use it&amp;hellip;. but maybe the screenshots can get more people excited.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>little tweaks to ui and ux</title>
+      <link>http://feedfact.org/post/little-tweaks-to-ui-and-ux/</link>
+      <pubDate>Mon, 06 Feb 2017 23:24:05 -0800</pubDate>
+      
+      <guid>http://feedfact.org/post/little-tweaks-to-ui-and-ux/</guid>
+      <description>&lt;p&gt;There were a couple things i didn&amp;rsquo;t like that i wanted to fix&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix getting passed waiting for mouseover.  Ideally I would like the graph to show when you scroll&lt;/li&gt;
+&lt;li&gt;Make it look a little better&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first one took a little bit, but i found a nice shortcut.  The text of the link matches the &amp;ldquo;title&amp;rdquo; of the article. Well, that is mostly true, Aparantly there are a bunch of articles that put a &amp;ldquo; | Author&amp;rdquo; at the end, or a &amp;ldquo; | publisher&amp;rdquo; at the end of their title in the Article.  But if that was the case then how did facebook actually get the real title? I bet they weren&amp;rsquo;t custom splitting on the &amp;ldquo;|&amp;rdquo;.  Then i found some extra meta tags that mostly worked as well. This required me switching the API to use a string for the Title, which also couldn&amp;rsquo;t even have the &amp;ldquo;|&amp;rdquo; otherwise that would break my API call for some reason. But in the end it now works pretty well.  Now, the overlay in the feed will be there as you scroll to it. which is nice.&lt;/p&gt;
+
+&lt;p&gt;But how does it look? well i decided to keep the same style as this site.  Pink on Black with white font.  Here is an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://feedfact.org/images/overlay3.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is still lots to do, like&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;updating the style of the Ranker&lt;/li&gt;
+&lt;li&gt;ranking within the feed, for things like videos&lt;/li&gt;
+&lt;li&gt;filters for your feed based on preferences in the chrome extensions&lt;/li&gt;
+&lt;li&gt;oh and doing stuff to get people to use it&amp;hellip;. but maybe the screenshots can get more people excited.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>exploring how this could work</title>
+      <link>http://feedfact.org/post/exploring-how-this-could-work/</link>
+      <pubDate>Sun, 29 Jan 2017 18:43:03 -0800</pubDate>
+      
+      <guid>http://feedfact.org/post/exploring-how-this-could-work/</guid>
+      <description>
+
+&lt;p&gt;Ok I devoted my entire weekend to get a prototype working.&lt;/p&gt;
+
+&lt;h1 id=&#34;this-was-the-plan&#34;&gt;This was the plan.&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Build an API that can do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Receive POSTS to accept rankings of 5 dimensions for any article&lt;/li&gt;
+&lt;li&gt;Return GET requests that take a url and return the aggregation of rankings for that url&lt;/li&gt;
+&lt;li&gt;The Get requests need to be quite performant and should be able to handle Caching, and user throttling&lt;/li&gt;
+&lt;li&gt;I do not want to manage any servers, this will all run without any servers (AWS)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build a chrome extension that can do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;That can read your facebook news feed, and return the results for the article in your feed and overlay the aggregation of the results from the API&lt;/li&gt;
+&lt;li&gt;Identify when you are reading an article and allow an overlay for you to submit the ranking to the API while reading it&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started by exploring how to make a Chrome Extension.  Following some basic tutorials, I found out the chrome extensions are qutie awesome.  They are simple Javascript sites that have simple browser code that allows injecting Javascript on any page.  This was perfect, just what i needed, the next thing i needed was to be able to get the URLS out of the page.  This was not so easy.  When facebook loads the news feed page the anchor tags did not contain the urls of the article.  And even after using hacky techniques like setInterval, the url still wouldnt be populated.  It was only right after when a user mouses over the article in the feed did the url get populated. From that point, I was able to make an overlay. Its not the nicest thing in the world. But the point is that it was doable.
+&lt;img src=&#34;http://feedfact.org/images/overlay.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cool so the UI can work in the facebook feed.  However, it means that everytime a user mouseovers an article in the facebook news i need to fire a call to the API, and render quite quickly. Noted.  Ok, onto the API&lt;/p&gt;
+
+&lt;p&gt;I basically did everything with Amazon Web Services.  It took a while getting everything wired together.  Route53, for getting my domain name and DNS; Amazone API Gateway for generating tokens, throttling and caching; Amazon Lambda to take the request and do some simple math logic; DynamoDB for storing all data; Oh and S3 for storing and hosting this site.  Connecting these things was not that easy, one of the things that caught me was getting SSL certificates right.  Majority of the weekend was devoted to configuring and tweaking my lambda function. Which does some cool iterative standard deviation calculations.&lt;/p&gt;
+
+&lt;p&gt;Ok with the facebook news feed overlay, and the API, I needed to get the article submissions working.  In order to get this to work the chrome extension needed to find a way to determine whether the page being viewed was an article or not.  Fortunately I was able to find a way using the meta tags in the page that (mostly) works. I then use a some simple js sliders for the form, and tada.
+&lt;img src=&#34;http://feedfact.org/images/overlay2.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does work with a couple little bugs i need to fix.  It was exhausting.  And well worth it.  After some bug fixing, Some test users. and i think we have something.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>exploring how this could work</title>
+      <link>http://feedfact.org/post/exploring-how-this-could-work/</link>
+      <pubDate>Sun, 29 Jan 2017 18:43:03 -0800</pubDate>
+      
+      <guid>http://feedfact.org/post/exploring-how-this-could-work/</guid>
+      <description>
+
+&lt;p&gt;Ok I devoted my entire weekend to get a prototype working.&lt;/p&gt;
+
+&lt;h1 id=&#34;this-was-the-plan&#34;&gt;This was the plan.&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Build an API that can do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Receive POSTS to accept rankings of 5 dimensions for any article&lt;/li&gt;
+&lt;li&gt;Return GET requests that take a url and return the aggregation of rankings for that url&lt;/li&gt;
+&lt;li&gt;The Get requests need to be quite performant and should be able to handle Caching, and user throttling&lt;/li&gt;
+&lt;li&gt;I do not want to manage any servers, this will all run without any servers (AWS)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build a chrome extension that can do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;That can read your facebook news feed, and return the results for the article in your feed and overlay the aggregation of the results from the API&lt;/li&gt;
+&lt;li&gt;Identify when you are reading an article and allow an overlay for you to submit the ranking to the API while reading it&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started by exploring how to make a Chrome Extension.  Following some basic tutorials, I found out the chrome extensions are qutie awesome.  They are simple Javascript sites that have simple browser code that allows injecting Javascript on any page.  This was perfect, just what i needed, the next thing i needed was to be able to get the URLS out of the page.  This was not so easy.  When facebook loads the news feed page the anchor tags did not contain the urls of the article.  And even after using hacky techniques like setInterval, the url still wouldnt be populated.  It was only right after when a user mouses over the article in the feed did the url get populated. From that point, I was able to make an overlay. Its not the nicest thing in the world. But the point is that it was doable.
+&lt;img src=&#34;http://feedfact.org/images/overlay.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cool so the UI can work in the facebook feed.  However, it means that everytime a user mouseovers an article in the facebook news i need to fire a call to the API, and render quite quickly. Noted.  Ok, onto the API&lt;/p&gt;
+
+&lt;p&gt;I basically did everything with Amazon Web Services.  It took a while getting everything wired together.  Route53, for getting my domain name and DNS; Amazone API Gateway for generating tokens, throttling and caching; Amazon Lambda to take the request and do some simple math logic; DynamoDB for storing all data; Oh and S3 for storing and hosting this site.  Connecting these things was not that easy, one of the things that caught me was getting SSL certificates right.  Majority of the weekend was devoted to configuring and tweaking my lambda function. Which does some cool iterative standard deviation calculations.&lt;/p&gt;
+
+&lt;p&gt;Ok with the facebook news feed overlay, and the API, I needed to get the article submissions working.  In order to get this to work the chrome extension needed to find a way to determine whether the page being viewed was an article or not.  Fortunately I was able to find a way using the meta tags in the page that (mostly) works. I then use a some simple js sliders for the form, and tada.
+&lt;img src=&#34;http://feedfact.org/images/overlay2.png&#34; alt=&#34;Overlay&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does work with a couple little bugs i need to fix.  It was exhausting.  And well worth it.  After some bug fixing, Some test users. and i think we have something.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
